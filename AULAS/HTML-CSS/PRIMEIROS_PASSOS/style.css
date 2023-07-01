@@ -1,0 +1,7 @@
+table:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+table {
+    margin-left: 5em;
+}

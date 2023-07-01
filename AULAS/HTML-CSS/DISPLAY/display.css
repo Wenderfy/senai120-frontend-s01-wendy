@@ -1,0 +1,18 @@
+.textos
+
+
+{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    background-color: #ff0000;
+    margin: 100px 0px 100px 20px;
+}
+
+#texto1 {
+    display: block;
+}
+
+#texto2 {
+    display: inline;
+}

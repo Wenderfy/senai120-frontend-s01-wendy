@@ -1,0 +1,18 @@
+.sta1 {
+    height: 300px;
+    width: 300px;
+    background-color: #00ffff;
+    position: static;
+}
+.sta2 {
+    height: 300px;
+    width: 300px;
+    background-color: #ee1811;
+    position: static;
+}
+.sta3 {
+    height: 300px;
+    width: 300px;
+    background-color: #00ff08;
+    position: static;
+}

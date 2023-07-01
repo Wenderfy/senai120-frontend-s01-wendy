@@ -1,0 +1,15 @@
+.container {
+    height: 300;
+    width: 300;
+    background-color: hsl(180, 78%, 45%);
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+    box-shadow: -50px 30px 30px 0px #000000;
+}
+img {
+    width: 200px;
+}
+#god {
+    height: 110px;
+    width: 200px;
+}

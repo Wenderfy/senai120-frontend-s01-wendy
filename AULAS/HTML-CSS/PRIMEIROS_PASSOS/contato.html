@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Steam</title>
+
+</head>
+<body>
+    <header style="background-color: #0b74d6;">
+        <img src="img/logo.png" alt="Logo da Steam" style="height: 200px; width: 200px;">
+        <h1>Steam</h1>
+        <nav>
+            <ul>
+                <a href="home.html"><li>HOME</li></a>
+                <a href="produto.html"><li>PRODUTOS</li></a>
+                <a href="contato.html"><li>CONTATO</li></a>
+            </ul>
+        </nav>
+    </header>
+   <main class="conteudoPrincipal">
+    <form>
+        <div class="containerForm" id="CampoNome"> <!--nunca colocar espaço-->
+            <label for="">Nome</label>
+            <input type="text" name="Nome" id="Nome"><!--name e id sempre o mesmo nome-->
+        </div>
+        <div class="containerForm" id="CampoSobrenome"> <!--class e div são os atributos mais utilizados-->
+            <label for="">Sobrenome</label>
+            <input type="text" name="Sobrenome" id="Sobrenome">
+        </div>
+        <div class="containerForm" id="CampoDataNasc"> 
+            <label for="">Data de Nascimento</label>
+            <input type="date" name="DatadeNascimento" id="DatadeNascimento">
+        </div>
+        <div class="containerForm" id="CampoCPF"> 
+            <label for="">CPF</label>
+            <input type="number" name="CPF" id="CPF" placeholder="000.000.000-00">
+        </div>
+        <div class="containerForm" id="CampoTelefone"> 
+            <label for="">Telefone</label>
+            <input type="number" name="Telefone" id="Telefone" placeholder="(XX)XXXXXXXXX" readonly><!--randoly deixa o campo apenas para leitura-->
+        </div>
+        <div class="containerForm" id="CampoEmail"> 
+            <label for="">E-mail</label>
+            <input type="email" name="E-mail" id="E-mail" required="">
+        </div>
+        <div class="containerForm" id="CampoSenha"> 
+            <label for="">Senha</label>
+            <input type="password" name="Senha" id="Senha">
+        </div>
+        <div>
+            <button type="submit" class="botao" id="botaoEnviar">Enviar</button>
+        </div>
+       <div>
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="" checked="">
+        <input type="file" name="" id="">
+        <input type="color" name="" id="">
+        <input type="radio" name="radios" id=""><!--names iguais só pode selecionar uma opcção-->
+        <input type="radio" name="radios" id="">
+        <input type="radio" name="radios" id="">
+        <input type="range" name="radios" id="">
+        <input type="" name="" id="">
+       </div>
+    </form>
+    <table border="" style="border-color: rgb(56, 72, 77); border-width: 10px;">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Wendy</td>
+            <td>26</td>
+            <td>SBC</td>
+            </tr>
+            <tr>
+                <td>Murilo</td>
+                <td>10</td>
+                <td>Santo andré</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>42</td>
+                <td>Formiga</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Aqui estão os dados</td><!--colspan mescla as células-->
+            </tr>
+        </tfoot>
+    </table>
+    </main>
+    <footer style="background-color: #c6d2dd;">
+        <div>
+            <ul>
+                <a href="https://www.instagram.com/steam_games_official/"><li>Instagram</li></a>
+                <a href="https://www.facebook.com/comusteambrasil/"><li>Facebook</li></a>
+                <a href="https://twitter.com/Steam"><li>Twitter</li></a>
+            </ul>
+        </div>
+        <p>Meu rodapé &#169</p>
+    </footer>    
+</body> 
+</html>

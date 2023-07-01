@@ -1,0 +1,8 @@
+.container {
+    height: 200px;
+    width: 400px;
+    background-color: #317199;
+    display: inline-block;
+    margin: 0px 30px;
+    box-shadow: -50px 30px 20px #2b989e;
+}

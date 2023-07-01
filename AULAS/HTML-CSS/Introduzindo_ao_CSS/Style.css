@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #1c3365;
+    font-family: sans-serif;
+}
+
+h1 {
+    height: 100px;
+    width: 50%;
+    font-size: 2.5em;
+    background-color: #28be48;
+    margin: 0px;
+    font-family: sans-serif;
+    color: #556062;
+    font-weight: bold;
+    border: solid 3px; color: #000000;
+    border-radius: 10px;
+    }
+
+p{  
+    color: #be7912;  
+    }
+
+    
+   .destaque {
+    font-size: 3em;
+   }
+
+   

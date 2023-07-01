@@ -1,0 +1,21 @@
+.inde1 {
+    height: 400px;
+    width: 400px;
+    background-color: #8a2be2;
+    position: relative;
+}
+.inde2 {
+    height: 100px;
+    width: 100px;
+    background-color: #4c9d51;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+}
+.inde3 {
+    height: 100px;
+    width: 100px;
+    background-color: #006eff;
+    position: absolute;
+    z-index: 2;
+}

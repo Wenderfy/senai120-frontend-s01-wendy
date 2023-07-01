@@ -1,0 +1,33 @@
+body, html {
+    height: 100%; /*Sempre 100% height e width*/
+    width: 100%;
+    background-color: #474655;
+}
+.cabecalho {
+    height: 80px;
+    width: 100%;
+    background-color: #0000ff;
+
+}
+.principal {
+    height: 500px;
+    width: 25%;
+    background-color: #20ca9d;
+    margin: 200px auto;/* auto funciona apenas par as laterais*/
+}
+form {
+    height: 80%;
+    width: 100%;
+    padding-top: 20%;
+}
+.container {
+    display: block;
+    margin-left: 25%;
+    height: 33%;
+
+}
+label, input {
+    display: block;
+    margin: 20px;
+    width: 30%;
+}

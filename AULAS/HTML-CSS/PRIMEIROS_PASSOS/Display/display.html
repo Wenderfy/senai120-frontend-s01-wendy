@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+        .textos {
+            width: 200px;
+            height: 100px;
+            display: inline-block; /*Preserva altura, largura e margens*/
+            background-color: rgb(9, 216, 44);
+            margin: 100px 10px 100px 50px;
+        }
+        #texto1 {
+            display: block; /*Apartir da altura ou margens ocupa 100% das laterais*/
+        }
+        #texto2 {
+            display: inline; /*Remove altura, Largura e preserva apenas a largura da margens*/
+        }
+    </style>
+</head>
+<body>
+    <h1 class="textos" id="texto1">Wenderfy</h1>
+    <h1 class="textos" id="texto2">Sousa</h1>
+    <h1 class="textos" id="texto3">Camurça</h1>
+</body>
+</html>
